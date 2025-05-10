@@ -1,0 +1,140 @@
+body{
+    background-color: #ffffff;
+
+}
+nav{
+    background-color: #1F2A44;
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li{
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+nav ul li:hover{
+    transform: scale(1.2) rotate(1turn);
+   
+   
+    
+}
+
+nav ul li a{
+    color: #D4AF37;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: #D4AF37;
+    border-radius: 10px;
+    color: #1F2A44;
+    
+    
+}
+h1{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    color: #222222;
+
+}
+p{
+    color:#D4AF37;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+}
+.team{
+    background-color: #1f2a444d;
+    border-radius: 10px;
+    padding: 20px;
+}
+.team h1{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+}
+.team .team-cards ul{
+    display: flex;
+   justify-content: center;
+   gap: 100px;
+    
+    list-style: none;
+}
+.team .team-cards ul li{
+    text-align: center;
+    background-color: #1F2A44;
+    color: #D4AF37;
+    border-radius: 15px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+}
+.team .team-cards ul li:hover{
+    transform: scale(1.2);
+}
+.team .team-cards ul li img{
+    margin: 20px;
+    border-radius: 100%;
+}
+footer{
+    text-align: center;
+    background-color: #0F172A;
+    color: #D4AF37;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+footer p a{
+    
+    color: #B9981C;
+}
+footer p a:hover{
+    font-size: 26px;
+    font-weight: 700;
+}
+footer ul li img:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 786px) {
+    *{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    .team .team-cards ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 100px;
+      list-style: none;
+    }
+    .team .team-cards ul li img {
+      height: 150px;
+    }
+  }

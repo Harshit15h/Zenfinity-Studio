@@ -1,0 +1,114 @@
+body{
+    background-color: #ffffff;
+
+}
+nav{
+    background-color: #1F2A44;
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li{
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+nav ul li:hover{
+    transform: scale(1.2) rotate(1turn);
+   
+   
+    
+}
+
+nav ul li a{
+    color: #D4AF37;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: #D4AF37;
+    border-radius: 10px;
+    color: #1F2A44;
+    
+    
+}
+h1{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    color: #222222;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.button button{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1F2A44;
+    background-color: #D4AF37;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.button button:hover{
+    transform: scale(1.2);
+    color: #1F2A44;
+    background-color: #B9981C;
+}
+footer{
+    text-align: center;
+    background-color: #0F172A;
+    color: #D4AF37;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+footer p a{
+    
+    color: #B9981C;
+}
+footer p a:hover{
+    font-size: 26px;
+    font-weight: 700;
+}
+footer ul li img:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width:786px){
+*{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 48px;
+    }
+}
